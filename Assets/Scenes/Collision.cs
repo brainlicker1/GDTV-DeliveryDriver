@@ -7,4 +7,7 @@ public class Collision : MonoBehaviour
      void OnCollisionEnter2D(Collision2D other) {
         Debug.Log("thang went bang");
     }
+     void OnTriggerEnter2D(Collider2D other) {
+        Debug.Log("Get triggered bitch");
+    }
 }

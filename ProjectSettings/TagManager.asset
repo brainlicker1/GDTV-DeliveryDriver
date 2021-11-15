@@ -6,6 +6,8 @@ TagManager:
   tags:
   - packagePickup
   - packageDropOff
+  - boost
+  - break
   layers:
   - Default
   - TransparentFX
